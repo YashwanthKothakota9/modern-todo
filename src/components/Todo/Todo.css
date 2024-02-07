@@ -1,0 +1,43 @@
+input[type='checkbox'] {
+  width: 2em;
+  height: 2em;
+  accent-color: var(--link-color);
+}
+
+.wrapper {
+  font-size: 2rem;
+  display: flex;
+  gap: 1em;
+  align-items: center;
+  justify-content: space-between;
+  background: var(--secondary-color);
+  padding: 1em;
+  margin: 0.5em;
+  border-radius: 0.5em;
+}
+
+.todo-wrapper {
+  display: flex;
+  gap: 0.5em;
+}
+
+label input[type='text'] {
+  padding: 0.2em;
+  background: var(--secondary-color);
+  color: var(--link-color);
+  font-size: 2rem;
+  outline: none;
+}
+
+.button-wrapper {
+  display: flex;
+  gap: 0.5em;
+}
+
+.button-wrapper button {
+  background: var(--secondary-color);
+  color: var(--link-color);
+  border: none;
+  outline: none;
+  cursor: pointer;
+}

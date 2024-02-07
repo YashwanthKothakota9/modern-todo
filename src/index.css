@@ -14,7 +14,18 @@ html {
   font-size: 62.5%;
 }
 
+ul {
+  list-style-type: none;
+}
+
 body {
   background: var(--primary-color);
+  height: 100vh;
+  display: grid;
+  place-content: center;
   color: white;
+  font-family: 'Space Grotesk', sans-serif;
+  font-optical-sizing: auto;
+  font-weight: 500;
+  font-style: normal;
 }
